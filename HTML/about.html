@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css links -->
+    <link rel="stylesheet" href="/CSS/bootstrap.css" />
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>AafnaiGharGagga</title>
+  </head>
+  <body>
+    <!--alert -->
+
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+      <strong>Hey! </strong>
+      <span class="text-dark"
+        >You should check now signup for free! free! free!</span
+      >
+      <a href="#" class="alert-link p-1">Signup </a>
+      <span class="badge badge-pill bg-dark">2 days left</span>
+
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-2" href="#">AffnaiGharGagga</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link">
+                <span class="p-1"><i class="fab fa-facebook"></i></span>
+                <span class="p-1"> <i class="fab fa-instagram"></i></span>
+                <span class="p-1"> <i class="fab fa-twitter"></i></span
+              ></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-globe p-1"></i
+                ><span class="text-white">USA </span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Australia</a></li>
+                <li><a class="dropdown-item" href="#">United Kingdom</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Nepal</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="btn btn-outline-warning" href="#">Post Ads</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Buy|Sale</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+
+            <li class="nav-item mr-2">
+              <a class="btn btn-outline-primary" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--breadcrumbs-->
+
+    <!-- <div class="container-fluid ">
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb ">
+        <ol class="breadcrumb bg-light p-2">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+    </div> -->
+
+    <!--end of nav bar-->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/PHOTOS/tophome3.png"
+            class="d-block w-100"
+            alt="building image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="mb-3">Find real estate in nepal</h2>
+            <!-- <form class="d-flex  searchReal ">
+              <input class="form-control me-1" type="search" placeholder="Address, City, Zip or Neighborhood" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/PHOTOS/tophome2.png"
+            class="d-block w-100"
+            alt="building image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/PHOTOS/tophome.png"
+            class="d-block w-100"
+            alt="building image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+            <button class="btn btn-primary">Post Ads</button>
+            <button class="btn btn-danger">Join</button>
+            <button class="btn btn-secondary">Agents</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container mt-3 mb-3 bg-success p-2">
+      <div class="input-group rounded">
+        <input
+          type="search"
+          class="form-control rounded mx-2"
+          placeholder="District,     Muncipality,      Address,      ID"
+          aria-label="Search"
+          aria-describedby="search-addon"
+        />
+
+        <span
+          class="input-group-text border-0 btn btn-success"
+          id="search-addon"
+        >
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+    </div>
+
+    <!-- demand posting -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mt-2">
+          <h2 class="font-weight-bold display-6 mb-4">Buying on AafnaiGharGagga.com</h2>
+          <h6 class="h4 mb-3">Real estate website of Nepal.</h6>
+          <p class="text-muted">
+            Search through our listing of real estate properties in Nepal and
+            contact owner directly to make a deal.
+          </p>
+          <div>
+            <button class="btn btn-outline-primary m-1">House For Sale</button>
+            <button class="btn btn-outline-primary m-1">Land For Sale</button>
+            <button class="btn btn-outline-primary m-1">Rental</button>
+          </div>
+
+          <div class="mt-3 d-flex">
+           
+            <div class="text-left mr-md-5 mt-md-3 mb-md-3 p-md-2 ml-2 mt-sm-2 mb-2 p-1" data-toggle="tooltip" data-placement="top" title="Copy Number">  
+              <p><i class="fas fa-phone-volume fa-1x"></i>|<span class="mark">+977-9803955983</span>|</p>
+
+              </div>
+              <div class="text-right ml-md-5 mt-md-3 mb-md-3 p-md-2 ml-2 mt-sm-2 mb-2 p-1">  
+                <p>|<i class="fab fa-youtube"></i>|<i class="far fa-envelope"></i>|Connect Via</p>
+                </div>
+          </div>
+      
+
+        </div>
+        <div class="col-md-4 mt-3">
+          <h3 class="text-center">Post Demands</h3>
+
+<div class="bg-light p-2 rounded-1">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Looking For <span class="text-danger">*</span></label>
+            <select class="form-select text-muted" aria-label="Default select example">
+              <option selected class="">Land</option>
+              <option value="House">House</option>
+              <option value="Appartment">Appartment</option>
+              <option value="Flat">Flat</option>
+            </select>
+          </div>
+          
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Size<span class="text-danger">*</span></label>
+            <select class="form-select text-muted" aria-label="Default select example">
+              <option selected>3-4 anna</option>
+              <option value="1">4-6 anna</option>
+              <option value="2">6-10+</option>
+              <option value="3">1 Ropani+</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Location<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Thali-5,Danchi,Kathmandu,Nepal">
+          </div>
+
+
+          <div class="d-grid gap-2">
+            <button class="btn btn-danger" type="button">Continue</button>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+      <!-- features houses -->
+      <div class="main text-center mt-5 mb-5">
+        <h6 class="heading display-4">Whether you’re buying, selling or renting,<br> we can help you move forward.</h6>
+        
+    </div>
+    <div class="container mt-4 mb-5 d-flex justify-content-center">
+        <div class="row g-0">
+            <div class="col-md-4 border-right">
+                <div class="cards">
+                    <div class="first bg-white p-4 text-center "> <img class="img-thumbnail" src="/PHOTOS/homeicone.png" />
+                        <h5>Buy a home</h5>
+                        <p class="line1">Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else</p>
+                        <button class="btn btn-outline-primary">Search home</button>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 border-right">
+                <div class="cards">
+                    <div class=" second bg-white p-4 text-center"> <img class="img-thumbnail" src="/PHOTOS/home_icon2.png" />
+                        <h5>Sell a home</h5>
+                        <p class="line2">Whether you get a cash offer through Zillow Offers® or choose to sell traditionally, we can help you navigate a successful sale.</p>
+                        <button class="btn btn-outline-primary">See Your options</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cards">
+                    <div class=" third bg-white p-4 text-center"> <img class="img-thumbnail" src="/PHOTOS/home_icon3.png" />
+                        <h5>Rent a home</h5>
+                        <p class="line3">We’re creating a seamless online experience – from shopping on the largest rental network, to applying, to paying rent.</p>
+                        <button class="btn btn-outline-primary">Find Rental</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card -->
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="card p-0">
+                  <div class="card-image"> <img src="https://images.pexels.com/photos/2746187/pexels-photo-2746187.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+                  <div class="card-content d-flex flex-column align-items-center">
+                      <h4 class="pt-2">SomeOne Famous</h4>
+                      <h5>Creative Desinger</h5>
+                      <ul class="social-icons d-flex justify-content-center">
+                          <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
+                          <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
+                          <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card p-0">
+                  <div class="card-image"> <img src="https://images.pexels.com/photos/381843/pexels-photo-381843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+                  <div class="card-content d-flex flex-column align-items-center">
+                      <h4 class="pt-2">SomeOne Famous</h4>
+                      <h5>Creative Desinger</h5>
+                      <ul class="social-icons d-flex justify-content-center">
+                          <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
+                          <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
+                          <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card p-0">
+                  <div class="card-image"> <img src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+                  <div class="card-content d-flex flex-column align-items-center">
+                      <h4 class="pt-2">SomeOne Famous</h4>
+                      <h5>Creative Desinger</h5>
+                      <ul class="social-icons d-flex justify-content-center">
+                          <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
+                          <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
+                          <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- js -->
+    <script src="/JS/bootstrap.js"></script>
+    <script src="/JS/jquery.js"></script>
+    <script src="/JS/popper.js"></script>
+    <script src="/JS/search.js"></script>
+
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.top-section{
+background-color: #00303F;
+}
+.fa-user{
+    color: aliceblue;
+}
+.fa-globe{
+    color: aliceblue;
+}
+.fa-phone-alt{
+    color: aliceblue;
+}
+.fa-youtube{
+    color:red;
+}
+.fa-phone-volume{
+    color:rgb(36, 172, 126);
+}
+.fa-envelope{
+    color:rgb(75, 66, 197);
+}
+.fa-facebook{
+    color: aliceblue;
+}
+.fa-instagram{
+    color: #E81616;
+}
+.fa-twitter{
+    color:#0193FD;
+}
+.fa-angle-down{
+    color: white;
+}
+/* #intro{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.73)),
+    url('/PHOTOS/homepage.jpg'); 
+    background-size:cover;
+    background-attachment: fixed;
+    
+} */
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:black;
+    opacity: 0.7;
+    }
+
+    .carousel-caption h5{
+        font-size: 20px !important;
+        top:2rem;
+    }
+
+    .searchReal{
+        margin-bottom: 50px !important;
+    }
+
+
+
+
+
+    .heading {
+        font-size: 20px;
+        font-weight: 600;
+        color: #3D5AFE
+    }
+    
+    .line1 {
+        color: #000;
+        font-size: 12px
+    }
+    
+    .line2 {
+        color: #000;
+        font-size: 12px
+    }
+    
+    .line3 {
+        color: #000;
+        font-size: 12px
+    }
+    
+    .cards {
+        transition: all 0.2s ease;
+        cursor: pointer
+    }
+    
+    .cards:hover {
+        box-shadow: 5px 6px 6px 2px #e9ecef;
+        transform: scale(1.1)
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #d6d2d2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.percent {
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    height: 35px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+
+.wishlist {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #eee;
+    padding: 10px;
+    cursor: pointer
+}
+
+.img-container {
+    position: relative
+}
+
+.img-container .first {
+    position: absolute;
+    width: 100%
+}
+
+.img-container img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.product-detail-container {
+    padding: 10px
+}
+
+.ratings i {
+    color: #a9a6a6
+}
+
+.ratings span {
+    color: #a9a6a6
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #35dca4;
+    color: #4f20a7;
+    font-size: 10px;
+    border-radius: 50%;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    border-color: #66b1ab;
+    background-color: #38a0ad;
+    color: #fff
+}
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scroll {
+    color: #fff;
+    margin-top: 100px
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: rgba(26, 29, 161, 0.8)
+}
+
+.js .cd-top--fade-out {
+    opacity: .5
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+/*  */
