@@ -13,7 +13,7 @@ background-color: #00303F;
 .fa-phone-alt{
     color: aliceblue;
 }
-.fa-youtube{
+.fa-youtube,.fa-map-marker-alt{
     color:red;
 }
 .fa-phone-volume{
@@ -33,6 +33,12 @@ background-color: #00303F;
 }
 .fa-angle-down{
     color: white;
+}
+.fa-map-marked-alt{
+    color: #08af40;
+}
+.fa-user-secret{
+    color: #0193FD;
 }
 /* #intro{
     height: 100vh;
@@ -98,7 +104,10 @@ background-color: #00303F;
         transform: scale(1.1)
     }
 
-
+    .card:hover{
+        transform: scale(1.01);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   }
 
 
 
