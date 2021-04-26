@@ -1,0 +1,65 @@
+<html>
+<head>
+    <style>
+        .divClass {
+            font-size: 16px;
+            background-color: #E3E3E3;
+            width: 500px;
+            padding: 5px;
+        }
+    </style>
+    <!-- <script src="jquery-1.11.2.js"></script> -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js" integrity="sha256-Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#linkIncrease').click(function () {
+                modifyFontSize('increase');
+            });
+
+            $('#linkDecrease').click(function () {
+                modifyFontSize('decrease');
+            });
+
+            $('#linkReset').click(function () {
+                modifyFontSize('reset');
+            })
+
+            function modifyFontSize(flag) {
+                var divElement = $('#divContent');
+                var currentFontSize = parseInt(divElement.css('font-size'));
+
+                if (flag == 'increase')
+                    currentFontSize += 3;
+                else if (flag == 'decrease')
+                    currentFontSize -= 3;
+                else
+                    currentFontSize = 16;
+
+                divElement.css('font-size', currentFontSize);
+            }
+        });
+    </script>
+</head>
+<body style="font-family:Arial">
+    Font-Size:
+    <a id="linkIncrease" href="#">Increase</a>
+    <a id="linkDecrease" href="#">Decrease</a>
+    <a id="linkReset" href="#">Reset</a>
+    <br /><br />
+    <div id="divContent" class="divClass">
+        <b>jQuery Tutorial</b>
+        <ul>
+            <li>What is jQuery</li>
+            <li>What is $(document).ready(function() in jquery</li>
+            <li>Benefits of using CDN</li>
+            <li>#id selector</li>
+            <li>Element Selector</li>
+            <li>class selector</li>
+            <li>attribute selector</li>
+            <li>attribute value selectors</li>
+            <li>case insensitive attribute selector</li>
+            <li>jQuery input vs :input</li>
+        </ul>
+    </div>
+</body>
+</html>

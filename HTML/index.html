@@ -28,11 +28,66 @@
       rel="stylesheet"
     />
 
+
+   
     <title>AafnaiGharGagga</title>
   </head>
-  <body>
-    <!--alert -->
+  
+  
+  <body class="body boldFontweight">
+    <div id="test">
+   
+   
+    <input type="hidden" id="stopID" name="custId" value="1">
+      
+    
+   
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" id="accessility">
+  <i class="fas fa-universal-access fa-3x"></i>
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title " id="exampleModalLabel">Accessibility Options</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-2">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-4"> <button id="Increase" class="btn-primary  btn-xl rounded px-2"><span class=""><i class="fas fa-search-plus fa-2x"></i><br>Increase</span></button></div>
+            <div class="col-md-3 col-4">  <button id="Decrease" class="btn-info  btn-xl rounded"><span class=""><i class="fas fa-search-minus fa-2x"></i><br>Decrease</span></button></div>
+
+            <div class="col-md-3 col-4 ">  <button onclick="myFunction()" class="btn-warning btn-xl rounded px-4"><span class=""><i class="fas fa-volume-up fa-2x"></i><br>Read </span></button></div>
+            
+            <div class="col-md-3 col-4 mt-md-0 mt-3"> <button id="Grey" class="btn-secondary btn-xl rounded"><span class=""><i class="fas fa-tint fa-2x"></i><br>Greyscale</span></button></div>
+
+            <div class="col-md-3 col-4 mt-3 "><button id="hide-img" class="btn-dark btn-xl px-4 rounded"><span class=""><i class="fas fa-images fa-2x"></i><br>Hide </span></button></div>
+         
+            
+            <div class="col-md-3 col-4 mt-3"> <button id="readablefonts" class="btn-success  btn-xl rounded"><span class=""><i class="fab fa-readme fa-2x"></i><br>Readable</span></button></div>
+            <div class="col-md-3 col-4 mt-3 "><button id="invert" class="btn-dark btn-xl px-4 rounded"><span class=""><i class="fab fa-creative-commons-zero fa-2x"></i><br>Invert </span></button></div>
+
+            
+            <div class="col-md-3 col-4 mt-3"><button id="hyperlinks" class="btn-link  btn-xl rounded text-decoration-none"><span class=""><i class="fas fa-link fa-2x"></i><br>Hyperlinks</span></button></div>
+           
+          
+         
+          </div>
+        </div>
+      
+          </div>
+       
+          <button id="Reset" type="button" class="btn btn-danger btn-sm m-1 btn-block"><span class=""><i class="fas fa-power-off fa-1x"></i><br>Reset All</span></button>
+      </div>
+      </div>
+    </div>
+  
+    <!--alert-->
     <div class="alert alert-info alert-dismissible fade show" role="alert">
       <strong>Hey! </strong>
       <span class="text-dark"
@@ -48,10 +103,13 @@
         aria-label="Close"
       ></button>
     </div>
+    
+
+    
     <!--nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fontIncDecREset">
       <div class="container-fluid">
-        <a class="navbar-brand mb-2" href="#">AffnaiGharGagga</a>
+        <a class="navbar-brand mb-2 fontIncDecREset" href="#">AffnaiGharGagga</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -85,7 +143,7 @@
                 <i class="fas fa-globe p-1"></i
                 ><span class="text-white">USA </span>
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu fontIncDecREset" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Australia</a></li>
                 <li><a class="dropdown-item" href="#">United Kingdom</a></li>
                 <li><hr class="dropdown-divider" /></li>
@@ -93,7 +151,7 @@
               </ul>
             </li>
             <li class="nav-item mr-2">
-              <a class="btn btn-outline-warning" href="#">Post Ads</a>
+              <a class="btn btn-outline-warning fontIncDecREset" href="#">Post Ads</a>
             </li>
           </ul>
 
@@ -114,8 +172,132 @@
             </li>
 
             <li class="nav-item mr-2">
-              <a class="btn btn-outline-primary" href="#">Login</a>
+              <!-- <a class="btn btn-outline-primary fontIncDecREset" href="#">Login</a> -->
+
+
+
+                 <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal1" >
+ Login</i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title " id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-2">
+
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-9 col-md-7 col-lg-12 mx-auto">
+                  <div class="card card-signin my-5">
+                      <div class="card-body">
+                          <!-- <h5 class="card-title text-center">Sign In</h5> -->
+                          <form class="form-signin">
+                              <div class="form-label-group"> <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus> <label for="inputEmail"></label> </div>
+                              <div class="form-label-group"> <input type="password" id="inputPassword" class="form-control" placeholder="Password" required> <label for="inputPassword"></label> </div>
+                              <div class="custom-control custom-checkbox mb-3"> <input type="checkbox" class="custom-control-input" id="customCheck1"> <label class="custom-control-label" for="customCheck1">Remember password?</label> </div> 
+                              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Login in</button>
+                              <hr class="my-2">
+                              <div class="text-center text-muted mb-4">or login with</div>
+                              <!-- <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign up</button> -->
+                             
+                          </form>
+                          <div class="text-center"> <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> </button> <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> </button></div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
             </li>
+
+
+
+            <li class="nav-item mx-2">
+              <!-- <a class="btn btn-outline-primary fontIncDecREset" href="#">Login</a> -->
+
+
+
+                 <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal2" >
+ Register</i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title " id="exampleModalLabel">Register</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-2">
+
+       
+        
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-9 col-md-7 col-lg-12 mx-auto">
+                  <div class="card card-signin my-5">
+                      <div class="card-body">
+                          <!-- <h5 class="card-title text-center">Sign In</h5> -->
+                          <form class="form-signin">
+                              <div class="form-label-group"> <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus> <label for="inputEmail"></label> </div>
+
+                              
+                              <div class="form-label-group"> <input type="password" id="inputPassword" class="form-control" placeholder="Password" required> <label for="inputPassword"></label> </div>
+                              <div class="form-label-group"> <input type="password" id="inputPassword" class="form-control" placeholder=" Conform Password" required> <label for="inputPassword"></label> </div>
+                              <div class="custom-control custom-checkbox mb-3"> <input type="checkbox" class="custom-control-input" id="customCheck1"> <label class="custom-control-label" for="customCheck1">Remember password?</label> </div> 
+                              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+                              <hr class="my-2">
+
+                              <!-- <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign up</button> -->
+                              <div class="text-center text-muted mb-4">or login with</div>
+                          </form>
+                        
+                          <div class="text-center"> <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> </button> 
+                            <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> </button>
+                          
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+            </li>
+
+
+
+
+
           </ul>
         </div>
       </div>
@@ -161,46 +343,42 @@
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner fontIncDecREset">
         <div class="carousel-item active">
           <img
             src="/PHOTOS/tophome3.png"
-            class="d-block w-100"
+            class="d-block w-100 changeColor"
             alt="building image"
           />
           <div class="carousel-caption d-none d-md-block">
-            <h2 class="mb-3">Find real estate in nepal</h2>
-            <!-- <form class="d-flex  searchReal ">
-              <input class="form-control me-1" type="search" placeholder="Address, City, Zip or Neighborhood" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
-            <h5>First slide label</h5>
+            <h2 class="mb-3 fontIncDecREset ">Find real estate in nepal</h2>
+      
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img
             src="/PHOTOS/tophome2.png"
-            class="d-block w-100"
+            class="d-block w-100 changeColor"
             alt="building image"
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
+
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img
             src="/PHOTOS/tophome.png"
-            class="d-block w-100"
+            class="d-block w-100 "
             alt="building image"
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
+           
             <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary">Post Ads</button>
-            <button class="btn btn-danger">Join</button>
-            <button class="btn btn-secondary">Agents</button>
+            <button class="btn btn-primary fontIncDecREset">Post Ads</button>
+            <button class="btn btn-danger fontIncDecREset">Join</button>
+            <button class="btn btn-secondary fontIncDecREset">Agents</button>
           </div>
         </div>
       </div>
@@ -247,7 +425,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 mt-2">
-          <h2 class="font-weight-bold display-6 mb-4">
+          <h2 class="font-weight-bold display-6 mb-4 fontIncDecREset">
             Buying on AafnaiGharGagga.com
           </h2>
           <h6 class="h4 mb-3">Real estate website of Nepal.</h6>
@@ -412,8 +590,6 @@
                 <img src="/PHOTOS/h1.png" class="img-fluid" />
               </div>
               <div class="product-detail-container">
-                <!-- 0-4-6-0-0 Road: 15ft Room: 7
-Thali-2, Danchi, Kathmandu -->
                 <div class="d-flex justify-content-between align-items-center">
                   <h6><span >ID:512 </span></h6>
                   <h6 class="text-dark font-weight-bold">Rs.1,32,990</h6>
@@ -642,8 +818,7 @@ Thali-2, Danchi, Kathmandu -->
             <img src="/PHOTOS/h1.png" class="img-fluid" />
           </div>
           <div class="product-detail-container">
-            <!-- 0-4-6-0-0 Road: 15ft Room: 7
-Thali-2, Danchi, Kathmandu -->
+           
             <div class="d-flex justify-content-between align-items-center">
               <h6><span >ID:512 </span></h6>
               <h6 class="text-dark font-weight-bold">Rs.1,32,990</h6>
@@ -1192,22 +1367,7 @@ Thali-2, Danchi, Kathmandu -->
           <form action="">
             <!--Grid row-->
             <div class="row d-flex justify-content-center">
-              <!--Grid column-->
-              <!-- <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div> -->
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <!-- <div class="col-md-5 col-12"> -->
-              <!-- Email input -->
-              <!-- <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example2" class="form-control" />
-              <label class="form-label" for="form5Example2">Email address</label>
-            </div>
-          </div> -->
+              
               <!--Grid column-->
 
               <!--Grid column-->
@@ -1222,6 +1382,8 @@ Thali-2, Danchi, Kathmandu -->
             <!--Grid row-->
           </form>
         </section>
+
+        
         <!-- Section: Form -->
 
         <!-- Section: Text -->
@@ -1231,10 +1393,11 @@ Thali-2, Danchi, Kathmandu -->
             AafnaiGharGagga.com is NOT involved in transaction of any
             goods/services listed in the website. It is only a platform for
             property owners, agents and developers to share information about
-            their property. AafnaiGharGagga.com does not hold any responsibility
+             their property. 
+            <!--  AafnaiGharGagga.com does not hold any responsibility
             for their act in any circumstances. AafnaiGharGagga.com is not an
             agency or agent. It is just a web tool developed to share property
-            related information.
+            related information. -->
           </p>
         </section>
         <!-- Section: Text -->
@@ -1244,7 +1407,7 @@ Thali-2, Danchi, Kathmandu -->
           <!--Grid row-->
           <div class="row">
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="d-md-block d-none col-lg-3 col-md-6 mb-4 mb-md-0">
               <h5 class="text-uppercase">Popular Real Estate</h5>
 
               <ul class="list-unstyled mb-0">
@@ -1265,10 +1428,42 @@ Thali-2, Danchi, Kathmandu -->
                 </li>
               </ul>
             </div>
+
+            <!-- display when in md -->
+
+            <div class="d-md-none">
+              <p>
+                <h6 class="text-uppercase " data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Popular Real Estate <i class="fas fa-chevron-down"></i>
+                </h6>
+              
+              </p>
+              <div class="collapse" id="collapseExample4">
+                <div class=" text-light">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">House for sale Kathmandu</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Lalitpur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Bhaktapur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="d-md-block d-none col-lg-3 col-md-6 mb-4 mb-md-0">
               <h5 class="text-uppercase">Rental Markets</h5>
 
               <ul class="list-unstyled mb-0">
@@ -1289,11 +1484,43 @@ Thali-2, Danchi, Kathmandu -->
                 </li>
               </ul>
             </div>
+
+            <!-- display when in md -->
+
+            <div class="d-md-none">
+              <p>
+                <h6 class="text-uppercase " data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  rental market <i class="fas fa-chevron-down"></i>
+                </h6>
+              
+              </p>
+              <div class="collapse" id="collapseExample3">
+                <div class=" text-light">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">House for sale Kathmandu</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Lalitpur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Bhaktapur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">For Professionals</h5>
+            <div class="d-md-block d-none col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Land for sale</h5>
 
               <ul class="list-unstyled mb-0">
                 <li>
@@ -1313,10 +1540,42 @@ Thali-2, Danchi, Kathmandu -->
                 </li>
               </ul>
             </div>
+
+            <!-- display when in md -->
+
+            <div class="d-md-none">
+              <p>
+                <h6 class="text-uppercase " data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Land for sale <i class="fas fa-chevron-down"></i>
+                </h6>
+              
+              </p>
+              <div class="collapse" id="collapseExample2">
+                <div class=" text-light">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">House for sale Kathmandu</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Lalitpur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Bhaktapur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="d-md-block d-none col-lg-3 col-md-6 mb-4 mb-md-0">
               <h5 class="text-uppercase">House for sale</h5>
 
               <ul class="list-unstyled mb-0">
@@ -1337,6 +1596,38 @@ Thali-2, Danchi, Kathmandu -->
                 </li>
               </ul>
             </div>
+
+            <!-- display when in md -->
+
+            <div class="d-md-none">
+              <p>
+                <h6 class="text-uppercase " data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  House for sale <i class="fas fa-chevron-down"></i>
+                </h6>
+              
+              </p>
+              <div class="collapse" id="collapseExample1">
+                <div class=" text-light">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">House for sale Kathmandu</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Lalitpur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Bhaktapur</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">House for sale Pokhara</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <!--Grid column-->
           </div>
           <!--Grid row-->
@@ -1354,14 +1645,11 @@ Thali-2, Danchi, Kathmandu -->
     </footer>
     <!-- Footer -->
 
-    <a
-      href="#"
-      id="toTopBtn"
-      class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
-      data-abc="true"
-    ></a>
+    <button onclick="topFunction()" id="myBtnn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+  </div>
 
     <!-- js -->
+    <script src="/JS/increase.js"></script>
     <script src="/JS/bootstrap.js"></script>
     <script src="/JS/jquery.js"></script>
     <script src="/JS/popper.js"></script>
@@ -1369,5 +1657,9 @@ Thali-2, Danchi, Kathmandu -->
 
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+     <!--font size increasing-->
+     <script src="https://code.jquery.com/jquery-1.11.2.min.js" integrity="sha256-Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA=" crossorigin="anonymous"></script>
+     <script src="/JS/increase.js"></script>
+     <!--font end size increasing-->
   </body>
 </html>

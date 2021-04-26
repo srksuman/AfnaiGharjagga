@@ -1,6 +1,13 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+#incrr{
+    font-size: 16px ;
+}
+.body {
+    /* filter: grayscale(100%); */
+   
+  }
 .top-section{
 background-color: #00303F;
 }
@@ -127,7 +134,7 @@ background-color: #00303F;
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 body {
-    background-color: #d6d2d2;
+    background-color:whitesmoke;
     font-family: "Poppins", sans-serif;
     font-weight: 300
 }
@@ -221,70 +228,374 @@ label.radio input:checked+span {
 }
 
   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.scroll {
-    color: #fff;
-    margin-top: 100px
-}
-
-#toTopBtn {
+    /*go to top button*/
+    #myBtnn {
+        /* display: none; */
+        position: fixed;
+        bottom: 10px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 4px;
+      }
+#accessility{
     position: fixed;
-    bottom: 26px;
-    right: 39px;
-    z-index: 98;
-    padding: 21px;
-    background-color: rgba(26, 29, 161, 0.8)
+        bottom: 0px;
+        left: 0px;
+        z-index: 999999;
+        /* font-size: 18px; */
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: rgb(31, 152, 182);
+        cursor: pointer;
+        /* padding: 10px; */
+        /* border-radius: 4px; */
+/* border:#0193FD solid; */
+        /* width: 50px;
+    height: 50px;
+    padding: 15px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center; */
+    outline: none;
+  box-shadow: none;
+}
+.fa-universal-access{
+    color: #0193FD;
+    /* background-color: black; */
 }
 
-.js .cd-top--fade-out {
-    opacity: .5
+
+/*login form*/
+/* body {
+    padding: 0;
+    margin: 0
+} */
+
+#container {
+    background-image: url("https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    width: 100%;
+    height: 650px
 }
 
-.js .cd-top--is-visible {
-    visibility: visible;
-    opacity: 1
+#formcontainer {
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 35%;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px
 }
 
-.js .cd-top {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .3s, visibility .3s, background-color .3s
+#img1 {
+    width: 450px;
+    height: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
 }
 
-.cd-top {
-    position: fixed;
-    bottom: 20px;
-    bottom: var(--cd-back-to-top-margin);
-    right: 20px;
-    right: var(--cd-back-to-top-margin);
-    display: inline-block;
+#cross {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -145px;
+    left: 94%
+}
+
+#text {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    position: relative;
+    top: -20px
+}
+
+#email,
+#password {
+    width: 350px;
+    height: 1px;
+    position: relative;
+    top: -30px;
+    left: 12%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 15px
+}
+
+#email:hover,
+#password:hover {
+    background-color: gainsboro
+}
+
+#email:focus,
+#password:focus {
+    box-shadow: 0 0 10px green;
+    border: none
+}
+
+#check {
+    position: relative;
+    top: 12px;
+    left: -66%
+}
+
+#text1 {
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    top: -36px;
+    left: 17%;
+    color: gray
+}
+
+#forget {
+    position: relative;
+    top: -77px;
+    left: 67%;
+    color: darkblue;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif
+}
+
+#login {
+    width: 350px;
     height: 40px;
-    height: var(--cd-back-to-top-size);
-    width: 40px;
-    width: var(--cd-back-to-top-size);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
-    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
-    background-color: hsla(5, 76%, 62%, .8);
-    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+    position: relative;
+    left: 12%;
+    top: -60px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 128, 0);
+    color: white
 }
 
-/*  */
+#login:hover {
+    background-color: rgb(0, 128, 0, 0.7)
+}
+
+#hrline1 {
+    line-height: 1em;
+    position: relative;
+    top: -40px;
+    left: -30%;
+    width: 38%
+}
+
+#text2 {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    top: -70px;
+    left: 40%;
+    color: gray
+}
+
+#hrline2 {
+    position: relative;
+    top: -95px;
+    left: 31%;
+    width: 37%
+}
+
+#facebook1,
+#google1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: -10%;
+    top: 1px
+}
+
+#facebook,
+#google {
+    width: 140px;
+    height: 40px;
+    position: relative;
+    top: -80px;
+    left: 12%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    font-size: 17px;
+    background-color: white
+}
+
+#facebook:hover {
+    background-color: #2c27bc;
+    color: white;
+    transition: 0.5s
+}
+
+#google {
+    position: relative;
+    left: 26.5%
+}
+
+#google:hover {
+    background-color: #ce6c46;
+    color: white;
+    transition: 0.5s
+}
+
+#text3 {
+    position: relative;
+    top: -66px;
+    left: 32%;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: gray
+}
+
+#signup {
+    position: relative;
+    top: -106px;
+    left: 55%;
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif
+}
+
+@media only screen and (max-width:830px) {
+    #formcontainer {
+        position: relative;
+        left: 20%
+    }
+}
+
+@media only screen and (max-width:620px) {
+    #formcontainer {
+        position: relative;
+        left: 10%
+    }
+}
+
+@media only screen and (max-width:530px) {
+    #formcontainer {
+        position: relative;
+        left: 4%
+    }
+}
+/*end of login form*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*share   */
+
+/* end of share */
+
+/*loading*/
+
+/*end of loading*/
+
+/*for circular btn*/
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 15px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+/* .greyScale{
+    margin-left: -13px;
+   
+} */
+/*end of circular btn*/
+
+/*login */
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem
+}
+
+
+
+.card-signin {
+    border: 0;
+    border-radius: 0rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1)
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem
+}
+
+.card-signin .card-body {
+    padding: 2rem
+}
+
+/* .form-signin {
+    width: 100%
+} */
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 0rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem
+}
+
+.form-label-group input {
+    height: auto
+}
+
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x)
+}
+
+
+
+.btn-google {
+    color: white;
+    background-color: #ea4335
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998
+}
+/*login */
+
+/*register*/
+
+
+/*register end*/
