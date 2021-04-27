@@ -1,0 +1,101 @@
+/* body {
+    background-color: #eeedef
+}
+
+.height-100 {
+    height: 100vh
+}
+
+.card {
+    width: 380px;
+    border: none;
+    border-radius: 0px
+}
+
+.content span {
+    color: green;
+    font-weight: 500
+}
+
+.content p {
+    font-size: 13px
+}
+
+.angle i {
+    font-size: 19px;
+    cursor: pointer
+}
+
+.angle i:nth-child(1) {
+    margin-right: 10px
+}
+
+.about span:nth-child(1) {
+    margin-right: 10px;
+    color: green
+} */
+
+/*news packages*/
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
+
+.banner8 {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+}
+
+.banner8 h1,
+.banner8 h2,
+.banner8 h3,
+.banner8 h4,
+.banner8 h5,
+.banner8 h6 {
+    color: #3e4555;
+}
+
+.banner8 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.banner8 a {
+    color: #263238;
+}
+
+.banner8 a:hover {
+    color: #316ce8;
+}
+
+.banner8 .blog-row h5 {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.banner8 .text-themecolor {
+    color: #316ce8;
+}
+
+.banner8 .btn-danger-gradiant {
+    background: #ff4d7e;
+   
+    
+    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.banner8 .btn-danger-gradiant:hover {
+    background: #ff6a5b;
+    background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+/* .banner8 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+} */
+
+/* .banner8 .text-danger {
+    color: #ff4d7e !important;
+} */
+
