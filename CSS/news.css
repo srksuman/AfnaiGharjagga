@@ -40,7 +40,7 @@
 
 .banner8 {
     font-family: "Montserrat", sans-serif;
-    color: #8d97ad;
+    /* color: #8d97ad; */
     font-weight: 300;
 }
 
@@ -99,3 +99,10 @@
     color: #ff4d7e !important;
 } */
 
+.news-videos{
+    width: 100%;
+    height: 400px;
+}
+.fontSizesNews{
+    font-size: 20px;
+}

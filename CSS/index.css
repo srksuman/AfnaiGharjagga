@@ -245,10 +245,10 @@ label.radio input:checked+span {
         border-radius: 4px;
       }
 #accessility{
-    position: fixed;
+    /* position: fixed;
         bottom: 0px;
         left: 0px;
-        z-index: 999999;
+        z-index: 999999; */
         /* font-size: 18px; */
         border: none;
         outline: none;
