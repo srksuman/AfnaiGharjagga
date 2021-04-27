@@ -55,7 +55,7 @@ background-color: #00303F;
     background-attachment: fixed;
     
 } */
-.carousel-item::before{
+.item-at-carousel::before{
     content: "";
     display: block;
     position: absolute;
