@@ -1,0 +1,6 @@
+
+@media (max-width: 575px) { 
+    .widthSecondOption{
+        width: 1000px !important;
+    }
+}
