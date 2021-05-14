@@ -1,0 +1,19 @@
+
+@media (max-width: 575px) { 
+    .widthSecondOption{
+        width: 1000px !important;
+    }
+}
+.change-colour:focus{
+    color: aqua;
+    color: aliceblue;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../CSS/bootstrap.css" />
     <link rel="stylesheet" href="../CSS/index.css" />
     <link rel="stylesheet" href="../CSS/about.css" />
+    <link rel="stylesheet" href="../CSS/help_doc.css" />
     <link rel="stylesheet" href="../CSS/all.min.css">
+
     <!-- fontawesome link -->
     <link
     rel="stylesheet"
@@ -35,11 +37,16 @@
     "../PHOTOS/logo.png" 
             type = "image/x-icon">
     <title>AafnaiGharJagga</title>
+    <style>
+        .questions-help{
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
  <!--skip to main content-->
- <a class="sr-only sr-only-focusable" href="#content-search">Skip to main content</a>
+ <a class="sr-only sr-only-focusable" href="#messages-info">Skip to main content</a>
  <!--end of skip to main content-->
     <!--alert-->
     <!-- <div class="alert alert-info alert-dismissible fade show" role="alert">
@@ -93,7 +100,7 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                     >
-                    <i class="fas fa-globe fa-sm"></i
+                    <i class="fas fa-globe  fa-sm"></i
                     ><span class="text-white"> USA </span>
                     </a>
                     <ul class="dropdown-menu fontIncDecREset" aria-labelledby="navbarDropdown">
@@ -145,9 +152,8 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="help_doc.html"><i class="far fa-question-circle"></i> Help</a>
-              </li>
-
+                    <a class="nav-link active" href="help_doc.html"><i class="far fa-question-circle"></i> Help</a>
+                </li>
             </ul>
 
             <ul class="navbar-nav">
@@ -155,7 +161,7 @@
                     <a class="nav-link " aria-current="page" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" >About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
 
                 <li class="nav-item">
@@ -183,14 +189,14 @@
     <!--end of navigation bar-->
 
 <!--breadcrumbs-->
-<div class="container-fluid body">
+<!-- <div class="container-fluid body">
   <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb ">
     <ol class="breadcrumb bg-light p-2">
       <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none  breadcrumns-font-color"><strong>Home</strong></a></li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-decoration-none "><strong class="font-weight-bold text-capitalize text-dark ">About</strong></a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-decoration-none "><strong class="font-weight-bold text-capitalize text-dark ">See More</strong></a></li>
     </ol>
   </nav>
-</div>
+</div> -->
 <!--end of breadcrumbs-->
 
 
@@ -273,142 +279,6 @@
 
     <!--contents for page-->
 
-<!--top image section of about us page-->
-<div class="container-fluid con body">
-  <img src="../PHOTOS/aboutus.png" alt="background about us" style="width:100%; ">
-  <div class="centered"> "Landlord grow rich in their sleep"    </div>
-</div>
-<!--end of top image section of about us page-->
-
-
-
-<!--start of why choosing us section-->
-<div class="container body">
-  <p class="line1">
-    <h2 class="text-center">Why choosing us?</h2>
-  </p>
-  <!--why choosing us details-->
-  <div class="container mt-5">
-   <div class="row">
-       <div class="col-md-4 mt-2">
-           <div class="content"> <a href="#">
-                   <div class="content-overlay"></div> <img class="content-image" src="../PHOTOS/award1.png" alt="award">
-                   <div class="content-details fadeIn-bottom">
-                       <h3 class="content-title">Sales Award 2019</h3>
-                       <p class="content-text"><i class="fa fa-map-marker"></i> Russia</p>
-                   </div>
-               </a> </div>
-       </div>
-       <div class="col-md-4 mt-2">
-           <div class="content"> <a href="#">
-                   <div class="content-overlay"></div> <img class="content-image" src="../PHOTOS/award2.jpg" alt="award">
-                   <div class="content-details fadeIn-bottom">
-                       <h3 class="content-title">Digo Sales 2019</h3>
-                       <p class="content-text"><i class="fa fa-map-marker"></i> Nepal</p>
-                   </div>
-               </a> </div>
-       </div>
-       <div class="col-md-4 mt-2">
-           <div class="content"> <a href="#">
-                   <div class="content-overlay"></div> <img class="content-image" src="../PHOTOS/award3.jpg" alt="award">
-                   <div class="content-details fadeIn-bottom">
-                       <h3 class="content-title">Highest Properties</h3>
-                       <p class="content-text"><i class="fa fa-map-marker"></i> Hawaii</p>
-                   </div>
-               </a> </div>
-       </div>
-   </div>
-</div>
-<p class=" mt-3">Real estate agents come from all different backgrounds and ages. The National Association of Realtors® (NAR) finds that 95% of agents chose a real estate career after leaving one or two previous careers—usually in business, finance, or management. <br><br>
-
-  Today, the average age of new real estate agents is near 50. Often, older people choose real estate as a way to ease into retirement or to supplement their retirement income. Younger people tend to go into the business because they are following in their family’s footsteps or they are intent on building a career in a field they love, as well as one that pays well.</p>
-</div>
-<!--end of why choosing us section-->
-
-
-<!--meet our team-->
-<div class="container mb-5 my-5 body" id="content-search">
-  <h2 class="  text-center mb-3">Meet our Team <i class="fas fa-chevron-circle-down" ></i> </h2>
-
-  <section id="team">
-    <div class="container">
-        <div class="section-header">  
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                <div class="member"> <img src="../PHOTOS/meet1.png" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <p  class="h4  text-white cursor-pointer">Suman Raj Khanal</p> <span>Chief Executive Officer</span>
-                           
-                            <div class="social">  <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-twitter"></i>
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                <div class="member"> <img src="../PHOTOS/meet2.png" class="img-fluid" alt="meet-team">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <p class="h4  text-white cursor-pointer">Saijeet Upadhyay</p> <span>Manager</span>
-                            <div class="social"> <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-twitter"></i>
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                <div class="member"> <img src="../PHOTOS/meet3.png" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <p class="h4  text-white cursor-pointer">Ashmita Devkota</p> <span>CTO</span>
-                            <div class="social">  <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-twitter"></i>
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                <div class="member"> <img src="../PHOTOS/meet4.png" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <p class="h4  text-white cursor-pointer">Aayush Thapa</p> <span>Officer</span>
-                           <div class="social"><i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-twitter"></i>
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-</div>
-<!--end of meet our team-->
-
-
-<!--our location-->
-<div class="container body">
-  <h3 class="text-center my-5">Our Location</h3>
-<div class="row">
-        <div class="col-md-6 span8">
-        	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14126.694361017768!2d85.39717142193408!3d27.727362668360087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b0d92a584c7%3A0xc3c7994e54d83e0!2sThali%2C%20Kageshwari%20Manohara%2044600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1619462600101!5m2!1sen!2sus" style="border: 3px solid brown; padding: 5px;" title="location"></iframe>
-    	</div>
-      <div class="col-md-6 d-flex flex-column mt-3 mt-md-0 justify-content-center">
-        <p>
-          Location, location, location. You may have heard this mantra when talking to an agent about the home values. In a nutshell, it means homes can vary widely in value due to their location. For example, the median cost of a single-family home in Decatur, Ill., is $107,900. The median cost of a single-family home in the Honolulu, Hawaii, area is $813,500.1﻿ Location is essential when it comes to the value of a property.
-        </p>
-      </div>
-    	
-      
-    </div>
-</div>
-<!--end of our location-->
-
 
 <!--news side part-->
 <div class="offcanvas offcanvas-end body" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -486,88 +356,161 @@
 </div>
 <!--end of news side part-->
 
+<!--help and documentation-->
+<div class="container mt-5">
+    <p class="h3 text-center"> Contact</p><hr>
 
+<p class="h3 text-center body">How Can We Help?</p>
+<p class="body">Please select the topic below to your inquery. If you dont find that what you need fil out the form below.</p>
 
-<!--Take a Virtual Tour-->
-<div class="container my-5 body">
-  <h2 class="text-center my-5">Take a Virtual Tour</h2>
-  <div class="row">
+<p class="h3 body">Find the Right Real Estate Lawyer for You</p>
+<p class="body">Now is a good time to speak with a few real estate lawyers and see how they can help your specific case. You can usually get a free consultation where you can meet in person, bring your documents, and understand what to expect.
+
+    Be wary if your lawyer seems to be too busy for new clients, hasn’t worked on many real estate cases, or seems to charge way too much. You can always seek other options, so don’t feel pressured to choose a real estate attorney right away.
     
-    <div class="col-md-6">
-      <p>Make sure you have social media accounts on all the big networks (Facebook, Twitter, Pinterest, Google+, and even Instagram if you snap a lot of house pics). Interact with users, share good press, and promote your properties.</p>
-      <p>Successful real estate relies heavily on great photography. Bad photos will diminish interest in even the greatest of properties. It’s absolutely vital that you have gorgeous photos of your properties. Hire a professional photographer (preferably with experience photographing homes and architecture), or, if you have sophisticated equipment and are confident in your abilities, have your own hand at it. Just remember this is one of those scenarios when it pays to bring in the professionals.</p>
-    </div>
-    <div class="col-md-6">
-      <iframe height="300" src="https://www.youtube.com/embed/AQfaV49HCdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; border: 2px solid brown; "></iframe>
+    If you have real estate law questions, contact us at Fernald Law Group. Our attorneys are regularly called upon to advise on residential and commercial real estate disputes and we have litigated all manners of real estate disputes.</p>
+
+<div class="body" >
+    <p class="body">
+      <p class="text-uppercase h6 font-weight-bold questions-help body" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample">
+        1. What Credentials Do You Have? <i class="fas fa-chevron-down"></i>
+      </p>
+    
+    </p>
+    <div class="collapse body" id="collapseExample9">
+      <div class=" text-dark">
+        While you might assume any lawyer at a firm has the proper law licensure, this may not be the case. So, ask your potential real estate attorney about state licensure. You can also double-check this information yourself through your state’s bar website.
+
+        You should also ask if the attorney has completed specialized training in real estate law. This might be a master’s degree or certificate in real estate law or continuing education coursework in the field.
+      </div>
     </div>
   </div>
-</div>
-<!--end of Take a Virtual Tour-->
 
 
-<!--Check what our Customers are Saying-->
-<div class="container mb-5 mt-5 body">
-  <div class=" text-center">
-    <p class="my-5 h2">Check what our Customers are Saying</p>
-    <p class="subtitle font-weight-normal text-muted my-2 h6">You can relay on our amazing features list and also our customer services will be great experience for you without doubt</p>
+  <div class="body" >
+    <p class="body">
+      <p class="text-uppercase h6 font-weight-bold questions-help body" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
+        2. How Much Do You Charge? <i class="fas fa-chevron-down"></i>
+      </p>
+    
+    </p>
+    <div class="collapse body" id="collapseExample10">
+      <div class=" text-dark">
+        Asking a potential real estate lawyer about the number of clients served can unveil a few important details.
+
+First, it may show that the lawyer has the experience and expertise that clients demand. It could also unveil that the lawyer is too busy and may not give you the support you need for a successful case outcome.
+
+You might find it helpful to read some reviews of particularly busy attorneys online or ask for references to get a better idea of what to expect.
+      </div>
+    </div>
   </div>
-<div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3 bg-light " style="max-width: 100%; max-height: 60vh;">
   
+  <div class="body" >
+    <p class="body">
+      <p class="text-uppercase h6 font-weight-bold questions-help body" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
+        3. How Much of Your Work Is Dedicated to Real Estate?<i class="fas fa-chevron-down"></i>
+      </p>
+    
+    </p>
+    <div class="collapse body" id="collapseExample11">
+      <div class=" text-dark">
+        While some law firms specialize in real estate, that doesn’t mean that most cases don’t fall in another category like criminal law or family law. Therefore, ask your potential real estate lawyer about the percentage of cases that relate to real estate law.
 
-<div class="testimonial1 py-5 bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      
-    </div>
-    <!-- Row  -->
-    <div class="owl-carousel owl-theme testi1 mt-4">
-      <!-- item -->
-      <div class="item">
-        <div class="card card-shadow border-0 mb-4">
-          <div class="card-body">
-            <div class="position-relative thumb bg-success-gradiant d-inline-block text-white mb-4"><img src="../PHOTOS/testonominal.png" alt="pic" class="thumb-img position-absolute rounded-circle" /> Bjay Lama</div>
-            <p class="font-weight-light h5 text-dark">In any market, in any country, there are developers who make money. So I say all of this doom and gloom, but there will always be people who make money, because people always want homes.</p>
-            <span class="devider d-inline-block my-3"></span>
-            <p class="font-weight-normal h6 text-dark">Agent</p>
-          </div>
-        </div>
+If you find that the firm handles only a few cases, look elsewhere. Not only may the firm not have enough experience for your case, but it can be a sign that other clients don’t trust the firm for their real estate issues.
       </div>
-      <!-- item -->
-
-        <!-- item -->
-        <div class="item">
-          <div class="card card-shadow border-0 mb-4">
-            <div class="card-body">
-              <div class="position-relative thumb bg-success-gradiant d-inline-block text-white mb-4"><img src="../PHOTOS/testonominal.png" alt="pic" class="thumb-img position-absolute rounded-circle" /> Bjay Lama</div>
-              <p class="font-weight-light h5 text-dark">In any market, in any country, there are developers who make money. So I say all of this doom and gloom, but there will always be people who make money, because people always want homes.</p>
-              <span class="devider d-inline-block my-3"></span>
-              <p class="font-weight-normal h6 text-dark">Agent</p>
-            </div>
-          </div>
-        </div>
-        <!-- item -->
-
-          <!-- item -->
-      <div class="item">
-        <div class="card card-shadow border-0 mb-4">
-          <div class="card-body">
-            <div class="position-relative thumb bg-success-gradiant d-inline-block text-white mb-4"><img src="../PHOTOS/testonominal.png" alt="pic" class="thumb-img position-absolute rounded-circle" /> Bjay Lama</div>
-            <p class="font-weight-light h5 text-dark">In any market, in any country, there are developers who make money. So I say all of this doom and gloom, but there will always be people who make money, because people always want homes.</p>
-            <span class="devider d-inline-block my-3"></span>
-            <p class="font-weight-normal h6 text-dark">Agent</p>
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-
-      
-     
     </div>
   </div>
+
+  <div class="body" >
+    <p class="body">
+      <p class="text-uppercase h6 font-weight-bold questions-help body" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample">
+        4. What Experience Do You Have? <i class="fas fa-chevron-down"></i>
+      </p>
+    
+    </p>
+    <div class="collapse body" id="collapseExample12">
+      <div class=" text-dark">
+        You’ll want to find out how much experience the real estate firm and attorney has with handling real estate cases and practicing law in general. You’ll want someone who has both worked on many real estate cases and stays up to date with state and local real estate laws.
+
+        If the lawyer is just starting his or her career, you might find it in your best interest to look elsewhere.
+      </div>
+    </div>
+  </div>
+
+  <div class="body" >
+    <p class="body">
+      <p class="text-uppercase h6 font-weight-bold questions-help body" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample">
+        5. Are You the Only One Who Would Work on the Case?<i class="fas fa-chevron-down"></i>
+      </p>
+    
+    </p>
+    <div class="collapse body" id="collapseExample13">
+      <div class=" text-dark">
+        When working with a real estate law firm, you might think that your attorney handles everything for you. However, this often isn’t the case, especially for large firms that handle a large caseload.
+
+A lawyer may hire paralegals to help create documents like contracts. The lawyer might also allow junior attorneys to help with the case.
+
+So, your lawyer should be upfront about this and let you meet everyone involved in your case. This will ensure you trust the whole group and find them a good fit for you.
+      </div>
+    </div>
+  </div>
+
+  <div class="body" >
+    <p class="body">
+      <p class="text-uppercase h6 font-weight-bold questions-help body" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample">
+        7. What Challenges Might Appear With the Case?<i class="fas fa-chevron-down"></i>
+      </p>
+    
+    </p>
+    <div class="collapse body" id="collapseExample14">
+      <div class=" text-dark">
+        The complexities of real estate mean that things can go wrong during a home purchase or sale.
+
+        For example, you might have problems over appraisal values or find that a house you want to buy has a lien on it. You might also be close to buying a home that needs repairs that the seller agrees to but decides not to do. These issues can lead to time-consuming disputes.
+        
+        Ask your potential lawyer what issues have gone wrong in the past and what experience the lawyer has handling common real estate issues. You want to choose someone who can give you a successful outcome and won’t get stuck right when you’re about to close on a home.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="body" >
+    <p class="body">
+      <p class="text-uppercase h6 font-weight-bold questions-help body" data-bs-toggle="collapse" href="#collapseExample16" role="button" aria-expanded="false" aria-controls="collapseExample">
+        8. What Can You Offer That Others Can’t?<i class="fas fa-chevron-down"></i>
+      </p>
+    
+    </p>
+    <div class="collapse body" id="collapseExample16">
+      <div class=" text-dark">
+        With so many real estate attorneys to choose from, dig deep to find out what one specific attorney can offer you that competitors can’t. Not only should you consider exceptional experience or credentials, but look for extra services offered or a strong commitment to clients.
+
+For example, one real estate lawyer might also be a title agent that will assist with the closing process and eliminate the need to get another party involved. Another lawyer may have references that show that he or she goes above and beyond to help clients and is easy to reach.
+      </div>
+    </div>
+  </div>
+
+
+    <p class="body mt-5" style="font-size: 20px;">For all enqueries, please email us using the form below</p>
+    <label for="messages-info" class="body " style="font-size: 18px;">Message:</label>
+    <form action="" class="mb-4">
+        <textarea name="" id="messages-info"  rows="5" required style="width: 100%;" placeholder="Enter your problem"></textarea>
+        <button class="btn btn-primary btn-sm btn-block " id="send-msg-btn" style="width:120px" onclick="sendMessageForm()">Message</button>
+    </form>
+
+    <div class="alert alert-success alert-dismissible fade show alert-alerm " role="alert" id="alert-messages">
+        <strong>Hey!</strong> Your message is sent we will contact you shortly
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
 </div>
-</div>
-</div>
-<!--end of Check what our Customers are Saying-->
+
+
+<!--end of help and documentation-->
+
+
+
+
+
 
 
     <!--end of content page-->
@@ -886,7 +829,7 @@
   
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          <a href="terms_and_condition.html" class="text-white">Terms of use & Privacy policy</a> |
+            <a href="terms_and_condition.html" class="text-white">Terms of use & Privacy policy</a> |
           © 2021 Copyright:
           <a class="text-white" href="index.html">AafnaiGharJagga.com</a>
         </div>
@@ -894,13 +837,11 @@
       </footer>
 
     <!--end of footer-->
-
-     <!--loading-->
-     <div class="loading hidden">
-      <img src="../PHOTOS/loading.gif" alt="loading...">
-    </div>
-      <!--end of loading-->
-
+ <!--loading-->
+ <div class="loading hidden">
+  <img src="../PHOTOS/loading.gif" alt="loading...">
+</div>
+  <!--end of loading-->
     <!-- js -->
     <script src="../JS/bootstrap.js"></script>
     <script src="../JS/jquery.js"></script>
@@ -908,5 +849,6 @@
     <script src="../JS/ScriptForAll.js"></script>
     <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     <script src="../JS/all.min.js"></script>
+
 </body>
 </html>
