@@ -209,7 +209,7 @@ function narrateText() {
     narrateArray.length = 0;
   }
   $("#gotoDetailsPage").click(function () {
-    $(window).location.href = "somorepage.html";
+    $(window).location.href = "HTML/somorepage.html";
     console.log("suman");
   });
 }
@@ -228,32 +228,32 @@ function formValidate() {
 }
 
 function pageRedirectSeeALl() {
-  window.location.href = "show_more_page.html";
+  window.location.href = "HTML/show_more_page.html";
 }
 document
   .querySelector(".gotoDetailsPage")
   .addEventListener("click", function () {
-    window.location.href = "particular_Item.html";
+    window.location.href = "HTML/particular_Item.html";
   });
 document
   .querySelector(".gotoDetailsPage1")
   .addEventListener("click", function () {
-    window.location.href = "particular_Item.html";
+    window.location.href = "HTML/particular_Item.html";
   });
 document
   .querySelector(".gotoDetailsPage2")
   .addEventListener("click", function () {
-    window.location.href = "particular_Item.html";
+    window.location.href = "HTML/particular_Item.html";
   });
 document
   .querySelector(".gotoDetailsPage3")
   .addEventListener("click", function () {
-    window.location.href = "particular_Item.html";
+    window.location.href = "HTML/particular_Item.html";
   });
 document
   .querySelector(".gotoDetailsPage4")
   .addEventListener("click", function () {
-    window.location.href = "agencies_page.html";
+    window.location.href = "HTML/agencies_page.html";
   });
 
 function sendMessages() {
